@@ -44,6 +44,7 @@ npm install
     In the cluster dashboard, click Connect > Drivers > Node.js, and copy the connection string.
     It will look like this:
 
+
 mongodb+srv://<username>:<password>@cluster0.mongodb.net/?retryWrites=true&w=majority
 
 Replace <username> and <password> with your actual database user credentials.

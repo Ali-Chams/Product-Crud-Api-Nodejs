@@ -33,6 +33,11 @@ class ProductsPage extends Component {
       .catch(err => {
         this.setState({ isLoading: false, products: [] });
         this.props.onError('Loading products failed. Please try again later');
+         console.error(
+  "❌ Error fetching products:",
+  err.message,
+  (err.response && err.response.data) || err
+);
         console.log(err);
       });
   }

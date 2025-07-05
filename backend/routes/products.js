@@ -61,7 +61,7 @@ router.get("/", (req, res, next) => {
   
    const queryPage = req.query.page;
    const pageSize = 1;
-   
+   console.log("GET /products route hit");
   const products = [];
   // let resultProducts = [...products];
   // if (queryPage) {
@@ -81,12 +81,12 @@ db.getDb().db()
           
         })
         .then((result) => {
-          
+          console.log("✅ Products fetched:", products.length);
           res.status(200).json(products);
          
         })
         .catch(err=> {
-          console.log(err);
+          console.log(err.message);
         res.status(500).json({ message: "An error occured"});
         });
       console.log("Database connection successful");

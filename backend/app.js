@@ -36,7 +36,10 @@ db.initDb((err,db)=>{
     console.log(err)
   }
   else{
-    app.listen(3100)
-  }
+   console.log("✅ DB initialized. Starting server...");
+    app.listen(process.env.PORT || 3100, () => {
+    console.log(`🚀 Server running on http://localhost:${process.env.PORT || 3100}`);
+  })
+}
 });
 

@@ -10,7 +10,7 @@
 ![Products](./2.PNG)
 
 
-### Admin Panel
+### Product Details
 ![Admin](./4.PNG)
 
 # Product Catalog API

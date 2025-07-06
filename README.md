@@ -3,7 +3,7 @@
 ### Home Page
 ![Details](./3.PNG)
 
-### Home Page
+### Log-in/Sign-up
 ![Home](./1.PNG)
 
 ### Product List

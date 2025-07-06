@@ -1,6 +1,22 @@
+## App Screenshots
+
+### Home Page
+![Home](./1.PNG)
+
+### Product List
+![Products](./2.PNG)
+
+### Product Details
+![Details](./3.PNG)
+
+### Admin Panel
+![Admin](./4.PNG)
+
+
+
 # Product Catalog API
 
-A simple Node.js + Express backend with MongoDB for managing product listings.
+A  Node.js + Express backend with MongoDB for managing product listings(uses react for frontend).
 
 ## Features
 
@@ -8,6 +24,7 @@ A simple Node.js + Express backend with MongoDB for managing product listings.
 - MongoDB Atlas for persistent storage
 - Image handling (static files)
 - Pagination support
+- logging in / signing up
 
 ## Technologies
 

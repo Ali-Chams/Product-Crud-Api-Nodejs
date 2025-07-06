@@ -1,19 +1,7 @@
 ## App Screenshots
 
 ### Home Page
-![Home](./1.PNG)
-
-### Product List
-![Products](./2.PNG)
-
-### Product Details
 ![Details](./3.PNG)
-
-### Admin Panel
-![Admin](./4.PNG)
-
-
-## App Screenshots
 
 ### Home Page
 ![Home](./1.PNG)
@@ -21,13 +9,9 @@
 ### Product List
 ![Products](./2.PNG)
 
-### Product Details
-![Details](./3.PNG)
 
 ### Admin Panel
 ![Admin](./4.PNG)
-
-
 
 # Product Catalog API
 

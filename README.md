@@ -6,7 +6,7 @@
 ### Log-in/Sign-up
 ![Home](./1.PNG)
 
-### Product List
+### Add Product(Can also edit & delete)
 ![Products](./2.PNG)
 
 
